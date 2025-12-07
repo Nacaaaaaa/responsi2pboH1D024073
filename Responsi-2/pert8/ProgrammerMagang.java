@@ -40,7 +40,7 @@ public class ProgrammerMagang implements KaryawanKontrak, AksesSistem {
     
     @Override
     public void logout() {
-        sedangLogin = false; [cite: 11]
+        sedangLogin = false;
         System.out.println(nama + " berhasil logout.");
     }
     
