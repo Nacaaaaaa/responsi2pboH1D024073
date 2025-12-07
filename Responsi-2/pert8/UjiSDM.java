@@ -1,7 +1,7 @@
 public class UjiSDM {
     public static void main(String[] args) {
-        System.out.println("=== PENGUJIAN PROGRAMMER MAGANG ==="); [cite: 59]
-        ProgrammerMagang andi = new ProgrammerMagang("Andi", 50000.0, "1234"); [cite: 46, 48, 50, 51]
+        System.out.println("=== PENGUJIAN PROGRAMMER MAGANG ===");
+        ProgrammerMagang andi = new ProgrammerMagang("Andi", 50000.0, "1234");
         andi.hitungGaji(160);
         
         System.out.println("Status Cuti: " + andi.getStatusCuti());
