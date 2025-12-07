@@ -4,7 +4,6 @@ class UjiPengguna {
         p.umur = 25;
         p.berat = 60.0;
         p.tinggi = 170.0;
-
         p.tampilInfo();
 
         System.out.println("\n--- Demonstrasi Konstanta Final ---");
