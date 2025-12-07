@@ -19,7 +19,6 @@ class analisisMesin {
             if (mesin instanceof mesinMotor) {
                 ((mesinMotor) mesin).suaraMesin();
             } else if (mesin instanceof mesinTraktorListrik) {
-                // Pengecekan dilakukan dari subclass paling spesifik (Traktor Listrik)
                 ((mesinTraktorListrik) mesin).suaraMesin();
             } else if (mesin instanceof mesinTraktor) {
                 ((mesinTraktor) mesin).suaraMesin();
@@ -42,9 +41,7 @@ class analisisMesin {
         int n = daftarMesin.length;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
-                // Urutkan descending (berdasarkan performa)
                 if (daftarMesin[j].nilaiPerforma() < daftarMesin[j + 1].nilaiPerforma()) {
-                    // Tukar posisi
                     defaultMesin temp = daftarMesin[j];
                     daftarMesin[j] = daftarMesin[j + 1];
                     daftarMesin[j + 1] = temp;
