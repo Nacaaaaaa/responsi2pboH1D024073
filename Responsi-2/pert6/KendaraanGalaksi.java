@@ -6,7 +6,7 @@ public abstract class KendaraanGalaksi {
     KendaraanGalaksi(String namaKendaraan, int kapasitasPenumpang) {
         this.namaKendaraan = namaKendaraan;
         this.kapasitasPenumpang = kapasitasPenumpang;
-        this.levelEnergi = 100; // levelEnergi default = 100.
+        this.levelEnergi = 100;
     }
 
     public String getNamaKendaraan() {
