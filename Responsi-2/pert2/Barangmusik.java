@@ -29,8 +29,8 @@ class BarangMusik {
         harga = hargaBaru;
     }
     
-    void ubahHarga(double hargaBaru) {
-        harga = hargaBaru;
+    void tambahStok(int jumlah) {
+        stok = stok + jumlah;
     }
 
     void tampilInfo() {
