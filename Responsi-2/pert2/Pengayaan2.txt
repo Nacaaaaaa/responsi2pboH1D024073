@@ -7,7 +7,7 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 4. Jelaskan konsep encapsulation dan bagaimana method dapat membantu melindungi data dalam sebuah class!
 5. Mengapa constructor tidak memiliki return type, bahkan tidak menggunakan kata kunci void?
 
-Jawaban
+Jawaban:
 
 1. Yang dimaksud dengan constructor overloading adalah adanya lebih dari satu constructor di dalam satu kelas yang punya nama yang sama, tapi jumlah atau tipe parameter yang dipakai berbeda.
 2. Cara Java membedakan constructor yang namanya sama adalah dengan melihat daftar parameternya, yaitu jumlah dan tipe data dari parameter yang ada di dalam kurung.
