@@ -9,8 +9,8 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 
 Jawaban
 
-1. Yang dimaksud dengan constructor overloading adalah memiliki lebih dari satu constructor dalam satu kelas yang memiliki nama sama tetapi jumlah atau tipe parameter di dalam tanda kurung berbeda.
-2. Cara Java membedakan constructor yang memiliki nama sama namun parameter berbeda adalah melalui constructor tersebut, yaitu kombinasi jumlah dan tipe data dari parameter yang diterima.
-3. Perbedaan antara mengakses variabel secara langsung dengan method setter adalah mengakses langsung melanggar enkapsulasi dan tidak menyediakan kontrol, sedangkan method setter memungkinkan adanya validasi dan kontrol logika sebelum nilai diubah.
-4. Konsep encapsulation adalah pengikatan variabel dan method yang beroperasi pada data tersebut ke dalam satu kelas dan disembunyikan menggunakan modifier private. Method membantu melindungi data karena menjadi gerbang akses yang menyediakan validasi dan kontrol terhadap data internal.
-5. Constructor tidak memiliki return type karena tugas utamanya adalah menginisialisasi objek dan secara implisit mengembalikan objek baru dari tipe kelas itu sendiri.
+1. Yang dimaksud dengan constructor overloading adalah adanya lebih dari satu constructor di dalam satu kelas yang punya nama yang sama, tapi jumlah atau tipe parameter yang dipakai berbeda.
+2. Cara Java membedakan constructor yang namanya sama adalah dengan melihat daftar parameternya, yaitu jumlah dan tipe data dari parameter yang ada di dalam kurung.
+3. Perbedaan antara mengakses variabel secara langsung dengan method setter adalah mengakses langsung itu tidak aman dan tidak ada kontrolnya, sedangkan method setter memberi kita kontrol penuh untuk validasi atau menjalankan logika lain sebelum nilai diubah.
+4. Konsep encapsulation adalah penggabungan data dan method yang bekerja pada data itu di dalam satu kelas. Method membantu melindungi data karena data internal biasanya disembunyikan, sehingga method itulah yang jadi satu-satunya pintu masuk untuk mengubah atau melihat data.
+5. Constructor tidak memiliki return type karena tugasnya memang khusus untuk membuat dan menginisialisasi objek baru dari kelas itu sendiri.
