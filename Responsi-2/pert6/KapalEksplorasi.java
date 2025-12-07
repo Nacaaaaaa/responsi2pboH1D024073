@@ -39,6 +39,7 @@ public class KapalEksplorasi extends KendaraanGalaksi {
 
         setLevelEnergi(energiBaru);
         System.out.println("Pengisian energi berhasil. Energi saat ini: " + energiBaru + "%.");
+    }
 
     public void scanPlanet(String namaPlanet) {
         System.out.println("Melakukan scan pada planet " + namaPlanet + " dengan modul level " + modulScan + ".");
