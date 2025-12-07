@@ -14,38 +14,38 @@ public class ProgrammerMagang implements KaryawanKontrak, AksesSistem {
     @Override
     public double hitungGaji(int jamKerja) {
         double totalGaji = jamKerja * gajiPerJam;
-        System.out.printf("Gaji %s (%d jam) adalah: Rp %.1f%n", nama, jamKerja, totalGaji); [cite: 37, 60]
+        System.out.printf("Gaji %s (%d jam) adalah: Rp %.1f%n", nama, jamKerja, totalGaji);
         return totalGaji;
     }
     
     @Override
     public void perpanjangKontrak(int durasiBulan) {
-        System.out.println("Kontrak diperpanjang " + durasiBulan + " bulan."); [cite: 6, 65]
+        System.out.println("Kontrak diperpanjang " + durasiBulan + " bulan.");
     }
     
     @Override
     public String getStatusCuti() {
-        return "Tersedia 5 hari"; [cite: 7, 43, 61]
+        return "Tersedia 5 hari";
     }
     
     @Override
     public void login(String pin) {
         if (pin.equals(pinRahasia)) {
-            sedangLogin = true; [cite: 9]
-            System.out.println("Login Berhasil. Selamat datang, " + nama + "!"); [cite: 9, 63]
+            sedangLogin = true;
+            System.out.println("Login Berhasil. Selamat datang, " + nama + "!");
         } else {
-            System.out.println("Login Gagal: PIN salah."); [cite: 10, 39, 62]
+            System.out.println("Login Gagal: PIN salah.");
         }
     }
     
     @Override
     public void logout() {
         sedangLogin = false; [cite: 11]
-        System.out.println(nama + " berhasil logout."); [cite: 11, 66]
+        System.out.println(nama + " berhasil logout.");
     }
     
     @Override
     public String getRoleAkses() {
-        return "Magang IT"; [cite: 12, 42, 64]
+        return "Magang IT";
     }
 }
