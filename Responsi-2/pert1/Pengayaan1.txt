@@ -8,7 +8,7 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 
 Jawaban:
 
-1. Perbedaan antara fungsi dan prosedur dalam PBO adalah fungsi melakukan perhitungan dan mengembalikan nilai kepada pemanggilnya, sedangkan prosedur melakukan serangkaian dan tidak mengembalikan nilai.
-2. Penting menggunakan konstanta dalam suatu kelas karena menjamin keamanan data agar nilai standar tidak dapat diubah. Keuntungannya adalah meningkatkan keterbacaan dan mempermudah pemeliharaan kode.
+1. Perbedaan antara fungsi dan prosedur dalam PBO adalah fungsi itu melakukan perhitungan lalu akan mengembalikan nilai tertentu. Sementara prosedur itu kerjanya hanya melakukan aksi dan tidak mengembalikan nilai.
+2. Penting menggunakan konstanta di kelas karena ini menjaga keamanan data supaya nilai yang sudah ditetapkan tidak bisa diubah-ubah. Ini juga membuat kode lebih mudah dibaca dan lebih gampang diurus kalau ada pembaruan.
 3. Yang terjadi jika mencoba mengubah nilai konstanta setelah objek dibuat adalah compiler Java akan menolaknya dan menghasilkan error. Contoh: mencoba p.faktorAktivitas = 1.5; menghasilkan error 'cannot assign a value to final variable faktorAktivitas'.
-4. Cara mendefinisikan konstanta dalam bahasa Java adalah menggunakan kata kunci final. Untuk konstanta milik kelas, biasanya digunakan public static final.
+4. Cara membuat konstanta di Java adalah dengan menambahkan kata kunci final saat deklarasi.
