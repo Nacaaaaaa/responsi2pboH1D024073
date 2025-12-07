@@ -6,3 +6,11 @@ Setelah anda menyelesaikan kode, tolong jawab pertanyaan dibawah ini ya =
 3. Apa perbedaan mendasar antara extends dan implements dalam konteks interface, jika dilihat secara konsep tanpa melihat contoh kode?
 4. Apa alasan diperkenalkannya default method dalam interface, dan bagaimana fitur ini memengaruhi keberlangsungan (compatibility) suatu sistem yang sudah berjalan?
 5. Bagaimana konsep multiple interface memperluas fleksibilitas desain tanpa menimbulkan masalah kompleksitas yang biasa muncul pada multiple inheritance?
+
+Jawaban:
+
+1. Tujuan utama adanya interface dalam PBO adalah untuk mendefinisikan standar yang harus dipenuhi oleh class yang mengimplementasikannya. Interface membantu menciptakan kontrak behavior karena ia mewajibkan semua class yang mengimplementasikannya untuk menyediakan method tertentu.
+2. Interface dapat memiliki banyak implementasi karena ia hanya berisi method abstrak tanpa detail cara kerja. Kemampuan memungkinkan fleksibilitas di mana banyak jenis class yang berbeda dapat berbagi kemampuan yang sama.
+3. Perbedaan mendasar antara extends dan implements adalah extends digunakan untuk mendapatkan warisan state dan behavior dari class lain, sementara implements digunakan untuk mendapatkan kontrak behavior dari interface tanpa mewarisi state.
+4. Alasan diperkenalkannya default method adalah untuk menambahkan method baru ke interface yang sudah ada tanpa harus merusak class lama yang sudah mengimplementasikannya. Fitur ini memengaruhi keberlangsungan sistem dengan menjaga kesamaan karena class lama tidak diwajibkan mengimplementasikan method baru tersebut.
+5. Konsep multiple interface memperluas fleksibilitas desain karena satu class dapat menerima kontrak dari banyak interface yang berbeda. Ini tidak menimbulkan masalah kompleks karena interface tidak mewarisi state dan hanya mewajibkan behavior.
