@@ -9,3 +9,11 @@
 4. Bagaimana keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child?
 
 5. Mengapa pendekatan inheritance lebih efisien dibanding menyalin ulang seluruh atribut dan method ke dalam class Member?
+
+Jawaban:
+
+1. Constructor di class Member wajib memanggil constructor Customer menggunakan super karena semua state dasar dari Customer harus diinisialisasi dulu sebelum Member bisa menginisialisasi atribut tambahannya sendiri.
+2. Tujuan memanggil super.tampilkanInfo() saat overriding method adalah untuk menggunakan kembali kode yang ada di class Customer untuk menampilkan informasi dasar, sehingga kita tidak perlu menulis ulang kode cetak yang sama di class Member.
+3. Contoh kondisi di mana pemanggilan super.method() sangat penting adalah ketika kita meng-override method seperti tampilkanInfo(). Kita ingin Member menampilkan info dasarnya dulu baru kemudian menambahkan info poin dan level.
+4. Keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child karena super.atribut akan secara spesifik merujuk ke atribut milik parent class, sedangkan this.atribut merujuk ke atribut milik child class itu sendiri.
+5. Pendekatan inheritance lebih efisien dibanding menyalin ulang karena mendukung prinsip penggunaan ulang. Kita hanya perlu fokus pada state dan method unik milik Member saja, sementara state dasar Customer sudah diwarisi.
